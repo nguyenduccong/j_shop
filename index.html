@@ -2,15 +2,41 @@
 <html lang="en" >
 <head>
   <meta charset="UTF-8">
-  <title>CodePen - glowing plants</title>
-  <link rel="stylesheet" href="./style.css">
+  <title>Chúc cậu 8-3 vui vẻ</title>
 
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<body class="not-loaded">
-        <div class="night"></div>
-        <div class="flowers">
+<body class="not-loaded" style="position:relative">
+
+
+  
+        <div class="night" ><div class="envelope-wrapper" style = "z-index:1000;"
+        
+        >
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear: Tiên </strong>
+                        <p>
+                            Ngày Quốc tế Phụ nữ, chúc cậu những lời chúc tốt đẹp nhất, luôn xinh đẹp, hạnh phúc và vui vẻ không chỉ vào ngày 8/3 và cả những ngày khác nữa.
+                        </p>
+                    
+
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+            
+            <button class="bn47" id="button" type="button" style = "z-index:1100; display: none"  
+onclick="document.getElementById('flowers').style.display = 'block'; document.querySelector('.envelope-wrapper').style.display= 'none'">Bấm vào đây nha có quà cho cậu nè</button>
+        </div>
+
+
+</div>
+        <div class="flowers" id = "flowers" style="display: none;
+        " >
           <div class="flower flower--1">
             <div class="flower__leafs flower__leafs--1">
               <div class="flower__leaf flower__leaf--1"></div>
