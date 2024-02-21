@@ -37,8 +37,10 @@ body {
 }
 .envelope-wrapper > .envelope {
   position: relative;
-  width: 300px;
-  height: 230px;
+  width: 80vw;
+  max-width: 500px;
+  height: 40vh;
+  max-height:350px;
 }
 .envelope-wrapper > .envelope::before {
   content: "";
