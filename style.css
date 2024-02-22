@@ -41,6 +41,7 @@ body {
   max-width: 500px;
   height: 40vh;
   max-height:350px;
+ 
 }
 .envelope-wrapper > .envelope::before {
   content: "";
@@ -67,7 +68,7 @@ body {
 .envelope > .letter {
   position: absolute;
   right: 20%;
-  bottom: 0;
+  bottom: 10px;
   width: 54%;
   height: 80%;
   background: var(--primary);
