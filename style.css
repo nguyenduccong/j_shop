@@ -31,7 +31,11 @@ body {
   width:100vw;
   display: grid;
   place-items: center;
-  background-color: red;
+}
+.flex{
+    display:flex;
+    flex-direction: column; 
+    gap:20px;
 }
 .container > .envelope-wrapper {
   background: var(--bg-envelope-color);
