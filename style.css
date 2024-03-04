@@ -137,8 +137,9 @@ body {
 }
 .bn47 {
   position: relative;
+  font-size:20px;
   padding: 1rem 2rem 0.5rem 2.5rem;
-  margin:20px auto ;
+  margin:50px auto ;
   color: #000000;
   border: 3px solid #776e62;
   -webkit-transition: padding 0.3s ease-in-out;
