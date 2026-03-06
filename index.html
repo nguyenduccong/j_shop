@@ -1,39 +1,39 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Chúc cậu 8-3 vui vẻ</title>
-
-  <link rel="stylesheet" href="./style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Wish for My Love</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<body class="not-loaded" style="position:relative">
-
-<div class="container">
-    <div>
-     <div class="envelope-wrapper" style = "z-index:1000;">
-            <div class="envelope">
-                <div class="letter">
-                    <div class="text">
-                        <strong>Dear: Tiên </strong>
-                        <p>
-                            Ngày Quốc tế Phụ nữ, chúc cậu những lời chúc tốt đẹp nhất, luôn xinh đẹp, hạnh phúc và vui vẻ không chỉ vào ngày 8/3 và cả những ngày khác nữa.
-                        </p>
-                      </div>
-                </div>
-                <div class="heart"></div>
-            </div>
+    <div id="particles-js"></div>
+    <div class="floating-hearts" id="floatingHearts"></div>
+    <div class="petals" id="petalsContainer"></div>
+    
+    
+    <div class="container">
+        <div class="progress-bar">
+            <div class="progress" id="progressBar"></div>
         </div>
-      <button class="bn47" id="button" type="button" style = "z-          index:1100; display: none" >Bấm vào đây nha có quà cho cậu nè</button> 
-    </div>          
-</div>
 
-
-
-   
-
-        <div class="flowers" id = "flowers" style="display: none;
+        <!-- Step 1: Greeting -->
+        <div class="step" id="step1">
+            <h1>Happy Birthday, My Love!</h1>
+            <p>I've created something magical just for you.</p>
+            <p>Are you ready to begin this special journey?</p>
+            <img src="https://png.pngtree.com/png-vector/20250422/ourmid/pngtree-cute-girl-holding-birthday-cake-smiling-cheerfully-png-image_16067658.png" style="height: 200px;width: 200px;" alt="">
+            <button class="btn" id="button"  onclick="nextStep()">Qùa cho bé nà</button>
+        </div>
+        
+        <!-- Step 2: Name Input -->
+    <div class="step" id="step2">
+              <div class="flowers" id = "flowers" style="display: none;
         " >
           <div class="flower flower--1">
             <div class="flower__leafs flower__leafs--1">
@@ -332,12 +332,12 @@
             </div>
           </div>
         </div>
-        <script src="java.js"></script>
-      </body>
 
-</html>
-<!-- partial -->
-  <script  src="./script.js"></script>
+    </div>
+    </div>
 
+
+  
+  <script src="script.js"></script>
 </body>
 </html>
